@@ -19,10 +19,8 @@ public class Solution
     }
 
     public static void checkSeason(int mount){
-        if(mount == 12){
-            System.out.println("Зима");
-        } else
-        if(mount >= 1 && mount <= 2 ){
+
+        if(mount >= 1 && mount <= 2 || mount == 12){
             System.out.println("Зима");
         }else
         if(mount >= 3 && mount <= 5){
