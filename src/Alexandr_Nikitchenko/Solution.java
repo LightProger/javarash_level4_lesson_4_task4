@@ -22,13 +22,13 @@ public class Solution
 
         if(mount >= 1 && mount <= 2 || mount == 12){
             System.out.println("Зима");
-        }else
+        }
         if(mount >= 3 && mount <= 5){
             System.out.println("Весна");
-        }else
+        }
         if (mount >= 6 && mount <= 8){
             System.out.println("Лето");
-        }else
+        }
         if (mount >= 9 && mount <= 11) {
             System.out.println("Осень");
         }
